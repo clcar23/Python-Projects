@@ -23,7 +23,7 @@ def Submit():
     f = open("basic_site.html", "w")
     f.write(msg)
     f.close()
-    url = "file:///C:/Users/clcar/AppData/Local/Programs/Python/Python310/basic_site.html"
+    url = "/Programs/Python/Python310/basic_site.html"
     wb.open_new(url)
 
 
