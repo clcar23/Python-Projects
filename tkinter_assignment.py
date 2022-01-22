@@ -15,10 +15,10 @@ class ParentWindow(Frame):
         self.master.geometry('{}x{}'.format(480, 170))
         self.master.title('Check Files')
         self.master.config(bg='grey95')
-# this is where i'm having trouble, getting the results to print to the window
+
         self.lblTop = Entry(self.master, text='', width=27, font=('Helvetica', 16), fg='black', bg='white')
         self.lblTop.grid(row=1, columnspan=4, padx=(120,0), pady=(45,0), sticky='E')
-# this button isn't supposed to do anything, i may end up deleting it        
+       
         self.lblBottom = Entry(self.master, text='', width=27, font=('Helvetica', 16), fg='black', bg='white')
         self.lblBottom.grid(row=2, columnspan=4, padx=(120,0), pady=(7,0), sticky='E')
 
