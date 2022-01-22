@@ -11,5 +11,5 @@ These are some basic projects created in Python and utilizing modules like tkint
 Phonebook: Here is a phonebook app that lets the user create a contact and store their name, number, and email in a database. The user can later update and delete contact info as needed.
 
 
-Nice or Mean Game: This is a simple game that lets the user make a choice to be nice or mean which ultimately leads to an outcome based on those choices.
+[Nice or Mean Game](https://github.com/clcar23/Python-Projects/blob/main/nice_or_mean_game.py): This is a simple game that lets the user make a choice to be nice or mean which ultimately leads to an outcome based on those choices.
 
